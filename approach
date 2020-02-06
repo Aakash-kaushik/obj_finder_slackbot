@@ -1,0 +1,12 @@
+## ML,Dl and object detection and related approach and everything add here 
+1. https://www.hindawi.com/journals/ijdmb/2018/4546896/  (faster rcnn and improved for small objects)
+ 
+
+## for the user interaction part and server side part add here
+Server side for  - handling video feed
+		 - user interaction
+		 - encryption(superficial - access for admin)
+		 - data transfer for the request
+		 - returning the result(only if necessary send a  frame of video /image) 
+
+			 
