@@ -15,4 +15,5 @@ Server side for  - handling video feed
 
 		 - returning the result(only if necessary send a  frame of video /image) 
 
+## for the  overall ordered workflow of the application:
 			 
