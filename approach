@@ -7,6 +7,7 @@
 ? Can make a google form and send on slack for asking what are some of the things you forget in your working place or something like that?
 4. SuperResolution library: https://github.com/idealo/image-super-resolution
 5. face detection (jis camera ne detect kiya sirf us camera ko he scan karenge jab user reqest dalega and can do a extensive serach agr unme bhi nahi milla toh)
+6. because companies don't have a large dataset of a single employee (https://blog.netcetera.com/face-recognition-using-one-shot-learning-a7cf2b91e96c)
 
 
 ## for the user interaction part and server side part add here
