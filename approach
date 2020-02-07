@@ -3,7 +3,7 @@
 2. https://github.com/Aakash-kaushik/image_classification/blob/master/Scripts/scrape_modak.py
 3. COCO pre-trained R-CNN (https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8)
    -(https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
-? List of objects that are not in dataset and need to be collected, processed and trained ?
+? List of objects that are not in dataset and need to be collected, processed and trained: keys, credit cards, id cards ?
    
  
 
