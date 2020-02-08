@@ -3,13 +3,11 @@
 2. https://github.com/Aakash-kaushik/image_classification/blob/master/Scripts/scrape_modak.py
 3. COCO pre-trained R-CNN (https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8)
    -(https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
-? List of objects that are not in dataset and need to be collected, processed and trained: keys, credit cards, id cards, power bank?
-? Can make a google form and send on slack for asking what are some of the things you forget in your working place or something like that?
 4. SuperResolution library: https://github.com/idealo/image-super-resolution
 5. face detection (jis camera ne detect kiya sirf us camera ko he scan karenge jab user reqest dalega and can do a extensive serach agr unme bhi nahi milla toh)
-6. because companies don't have a large dataset of a single employee (https://blog.netcetera.com/face-recognition-using-one-shot-learning-a7cf2b91e96c)
+6. because companies don't have a large dataset of a single employee (https://towardsdatascience.com/one-shot-learning-face-recognition-using-siamese-neural-network-a13dcf739e)
 7. mmdetection chal gaya 
-
+8. objects not in dataset, look google form responses
 
 ## for the user interaction part and server side part add here
 Server side for  - handling video feed
