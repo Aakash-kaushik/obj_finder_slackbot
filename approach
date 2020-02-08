@@ -1,4 +1,4 @@
-## ML,Dl and object detection and related approach and everything add here 
+## ML,Dl and object detection and related approach and everything add here: 
 1. https://www.hindawi.com/journals/ijdmb/2018/4546896/  (faster rcnn and improved for small objects)
 2. https://github.com/Aakash-kaushik/image_classification/blob/master/Scripts/scrape_modak.py
 3. COCO pre-trained R-CNN (https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8)
@@ -9,7 +9,7 @@
 7. mmdetection chal gaya 
 8. objects not in dataset, look google form responses
 
-## for the user interaction part and server side part add here
+## for the user interaction part and server side part add here:
 Server side for  - handling video feed
 		 - user interaction (when the user inputs something it should show the list of items matching to what the user has typed) 
 		 - encryption(superficial - access for admin)
@@ -18,4 +18,14 @@ Server side for  - handling video feed
 		 - returning the result(only if necessary send a  frame of video /image) 
 
 ## for the  overall ordered workflow of the application:
+        0.keeping track of the person and recording the time-stamp
+	1.search request from the user 
+	2.server requesting the system for the video feed 
+	3.priority-vise checking of the cameras where the person stayed longer (using face detection), terminate the serach if found else continue to the remaining cameras.
+	4.if the object is found after all this keep a track on the object till the user takes it back 
+	5.if not found do periodic scans till a period of time suppose for one day after each hour so like for 24 times in a day and then stop.
+	
+	
+## Proposal for new things in the idea or improvment on the existing things: 
+	
 			 
