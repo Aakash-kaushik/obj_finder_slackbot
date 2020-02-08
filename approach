@@ -4,7 +4,8 @@
    -(https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 4. SuperResolution library: https://github.com/idealo/image-super-resolution
 5. face detection (jis camera ne detect kiya sirf us camera ko he scan karenge jab user reqest dalega and can do a extensive serach agr unme bhi nahi milla toh)
-6. because companies don't have a large dataset of a single employee (https://towardsdatascience.com/one-shot-learning-face-recognition-using-siamese-neural-network-a13dcf739e)
+6. because companies don't have a large dataset of a single employee (https://towardsdatascience.com/one-shot-learning-face-recognition-using-siamese-neural-network-a13dcf739e),
+	(https://medium.com/intro-to-artificial-intelligence/one-shot-learning-explained-using-facenet-dff5ad52bd38)	
 	6.1.We can implement it from scratch with fastai 
 7. mmdetection chal gaya 
 8. objects not in dataset, look google form responses
