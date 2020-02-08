@@ -1,7 +1,6 @@
 ## ML,Dl and object detection and related approach and everything add here: 
 1. https://www.hindawi.com/journals/ijdmb/2018/4546896/  (faster rcnn and improved for small objects)
 2. https://github.com/Aakash-kaushik/image_classification/blob/master/Scripts/scrape_modak.py
-3. COCO pre-trained R-CNN (https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8)
    -(https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 4. SuperResolution library: https://github.com/idealo/image-super-resolution
 5. face detection (jis camera ne detect kiya sirf us camera ko he scan karenge jab user reqest dalega and can do a extensive serach agr unme bhi nahi milla toh)
