@@ -29,7 +29,7 @@ Server side for  - handling video feed @(gaurav)
 	3.priority-vise checking of the cameras where the person stayed longer (using face detection), terminate the serach if found else continue to the remaining cameras.
 	4.if the object is found after all this keep a track on the object till the user takes it back 
 	5.if not found do periodic scans till a period of time suppose for one day after each hour so like for 24 times in a day and then stop.
-	
+	??How to detect in night??
 	
 ## Proposal for new things in the idea or improvment on the existing things: 
 	
