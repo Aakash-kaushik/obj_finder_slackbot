@@ -16,7 +16,7 @@ Server side for  - handling video feed @(gaurav)
 		 - encryption(superficial - access for admin)
 		 - data transfer for the request
 		 - returning the result(only if necessary send a  frame of video /image) 
-		 -Making login page with database(Satyam)
+		 -Making login page with database(Gaurav)
 		 -Front End-modify my Bootstrap page
 		 
 		 
