@@ -16,6 +16,10 @@ Server side for  - handling video feed @(gaurav)
 		 - encryption(superficial - access for admin)
 		 - data transfer for the request
 		 - returning the result(only if necessary send a  frame of video /image) 
+		 -Making login page with database(Satyam)
+		 -Front End-modify my Bootstrap page
+		 
+		 
 
 ## for the  overall ordered workflow of the application:
         0.keeping track of the person and recording the time-stamp
