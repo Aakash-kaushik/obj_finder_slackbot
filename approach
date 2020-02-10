@@ -17,6 +17,7 @@ Server side for  - handling video feed @(gaurav)
 		 - data transfer for the request
 		 - returning the result(only if necessary send a  frame of video /image) 
 		 -Making login page with database(Gaurav)
+		 https://youtu.be/OTmQOjsl0eg(link for login page)
 		 -Front End-modify my Bootstrap page
 		 
 		 
