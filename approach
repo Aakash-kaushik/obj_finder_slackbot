@@ -36,6 +36,7 @@ Server side for  - handling video feed @(gaurav)
 
 ##URGENT
 1. Need to train the model on things not included in dataset
+  1.1 where to download the dataset from and how much images to download and what tool to use because the script mentioned in point 2 in ml,dl can just download 100 images by a single keyword so you have to type 10 word for 1000 images 
 2. Web page(to test the working of things)
 	
 			 
