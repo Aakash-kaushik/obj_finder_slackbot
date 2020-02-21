@@ -25,7 +25,7 @@ Server side for  - handling video feed @(gaurav)
 		 
 
 ## for the  overall ordered workflow of the application:
-        0.keeping track of the person and recording the time-stamp
+        0.keeping track of the person and recording the time-stamp (We are probablygoing to scrape the idea for facial recognition)
 	1.search request from the user 
 	2.server requesting the system for the video feed 
 	3.priority-vise checking of the cameras where the person stayed longer (using face detection), terminate the serach if found else continue to the remaining cameras.
@@ -34,6 +34,7 @@ Server side for  - handling video feed @(gaurav)
 	??How to detect in night??
 	
 ## Proposal for new things in the idea or improvment on the existing things: 
+ we won't keep track of every frame from the camera when the user will request we will take just a singe frame fro meach camera pass it to the detection model and then will try to do super res on the image if the item is not found all this is just going to happen for a single frame not all of them
 
 ##URGENT
 1. Need to train the model on things not included in dataset
