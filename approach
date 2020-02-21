@@ -8,7 +8,8 @@
 	(https://medium.com/intro-to-artificial-intelligence/one-shot-learning-explained-using-facenet-dff5ad52bd38)	
 	6.1.We can implement it from scratch with fastai 
 7. mmdetection chal gaya 
-8. objects not in dataset, look google form responses(https://towardsdatascience.com/collecting-data-for-custom-object-detection-e7d888c1469b)
+8. objects not in dataset, look google form responses(https://towardsdatascience.com/collecting-data-for-custom-object-detection-e7d888c1469b),(https://www.arunponnusamy.com/preparing-custom-dataset-for-training-yolo-object-detector.html)
+WE FUCKING DON'T HAVE TIME TO ANNOTATE THE OBJECTS ONE BY ONE 
 
 ## for the user interaction part and server side part add here:
 Server side for  - handling video feed @(gaurav)
