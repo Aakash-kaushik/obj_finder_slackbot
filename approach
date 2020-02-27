@@ -43,4 +43,6 @@ Server side for  - handling video feed @(gaurav)
 2. Web page(to test the working of things)
 3. try detectron 2 also (btw i don' think there will be mcuh improvment in acuracy but the processing time may reduce and the fps may increase.)
 4. And how to check if the obj detector detected what was in the search query	
-			 
+5. Model deploy on slack(	https://algorithmia.com/blog/how-to-integrate-machine-learning-into-your-slack-channels)
+(https://medium.com/@jeremyblythe/serverless-machine-learning-classifier-slackbot-5b742c4f3b84)
+(	 https://towardsdatascience.com/python-and-slack-a-natural-match-60b136883d4d)
