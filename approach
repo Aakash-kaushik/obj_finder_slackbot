@@ -45,3 +45,6 @@ Server side for  - handling video feed @(gaurav)
 4. And how to check if the obj detector detected what was in the search query	
 5. Model deploy on slack -- https://medium.com/@jeremyblythe/serverless-machine-learning-classifier-slackbot-5b742c4f3b84
 	--https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
+
+## Progress
+i have learned to interact with the basic slack clients in python and we don't need a server to run it, (https://github.com/slackapi/python-slackclient)
