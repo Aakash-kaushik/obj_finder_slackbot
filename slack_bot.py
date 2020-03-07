@@ -6,7 +6,6 @@ from mmdet.apis import init_detector, inference_detector, show_result
 import mmcv
 import cv2
 import numpy as np
-from PIL import Image
 
 config_file = 'configs/faster_rcnn_r50_fpn_1x.py'
 checkpoint_file = '/home/aakash/.cache/torch/checkpoints/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth'
