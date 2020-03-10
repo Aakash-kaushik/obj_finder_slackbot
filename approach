@@ -48,3 +48,6 @@ Server side for  - handling video feed @(gaurav)
 
 ## Progress
 i have learned to interact with the basic slack clients in python and we don't need a server to run it, (https://github.com/slackapi/python-slackclient)
+
+## to address the issue for dark images.
+https://github.com/cs-chan/Exclusively-Dark-Image-Dataset
