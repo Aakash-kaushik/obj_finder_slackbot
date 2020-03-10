@@ -12,7 +12,7 @@ checkpoint_file = '/home/aakash/.cache/torch/checkpoints/faster_rcnn_r50_fpn_1x_
 
 model = init_detector(config_file, checkpoint_file, device='cuda:0')
 
-token="xoxb-965578669089-985477691573-PGSsnA3lVorBie2AkCY9zafK"
+token="" # removed token for privacy
 # instantiate Slack client
 slack_client = SlackClient(token)
 # starterbot's user ID in Slack: value is assigned after the bot starts up
@@ -60,6 +60,8 @@ def handle_command(command, channel):
         response = "I can't find that yet"
     if command.startswith("lost"):
         response = "Sure let me help you find it, mention me again and type what's lost"
+    if command.startswith("item"): #Added a way to knw which term to use to find the objects need to test it
+        response = items
     if command in items:
         search_item=command
         idx=items.index(search_item)
