@@ -5,6 +5,8 @@ This project used [mmdetection](https://github.com/open-mmlab/mmdetection).
 * [Aakash Kaushik](https://github.com/Aakash-kaushik)
 * [Kunal Mundada](https://github.com/AlKun25)
 * [Satyam Sai](https://github.com/Satyamsai)
+### Demo
+You can go [here](https://youtu.be/2DK5Nr-NlRo) for a demo video
 ### guide to use 
 * You first need to install mmdetection, instructions are given [here](https://github.com/open-mmlab/mmdetection/blob/master/docs/INSTALL.md)
 * you need to download the model and choose the config file accoridng to the model you wish to use from the mmdetection model.
