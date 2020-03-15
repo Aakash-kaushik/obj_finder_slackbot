@@ -1,7 +1,6 @@
 import os
 import time
 import re
-from ISR import SuperRes, frameEnhancer
 from slackclient import SlackClient
 from mmdet.apis import init_detector, inference_detector, show_result
 import mmcv
