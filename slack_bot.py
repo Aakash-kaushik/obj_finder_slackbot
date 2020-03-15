@@ -75,9 +75,6 @@ def handle_command(command, channel):
         cap=cv2.VideoCapture(0)
         ret,frame=cap.read()
         cap.release()
-        #trying ISR in input here
-        frame = frameEnhancer(frame)
-        #ISR ends here
         #the dark image part was supposed to be implemented here
         result = inference_detector(model, frame)
         num_res=np.array(result[idx])
