@@ -74,7 +74,7 @@ def handle_command(command, channel):
         cap=cv2.VideoCapture(0)
         ret,frame=cap.read()
         cap.release()
-        #the dark image part was supposed to be implemeted here
+        #the dark image part was supposed to be implemented here
         result = inference_detector(model, frame)
         num_res=np.array(result[idx])
         num_res=num_res[num_res[:,4]>0.325]
