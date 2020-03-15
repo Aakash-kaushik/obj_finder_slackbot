@@ -1,6 +1,7 @@
 import os
 import time
 import re
+from ISR import SuperRes, frameEnhancer
 from slackclient import SlackClient
 from mmdet.apis import init_detector, inference_detector, show_result
 import mmcv
@@ -74,6 +75,9 @@ def handle_command(command, channel):
         cap=cv2.VideoCapture(0)
         ret,frame=cap.read()
         cap.release()
+        #trying ISR in input here
+        frame = frameEnhancer(frame)
+        #ISR ends here
         #the dark image part was supposed to be implemented here
         result = inference_detector(model, frame)
         num_res=np.array(result[idx])
@@ -89,6 +93,7 @@ def handle_command(command, channel):
         for img_idx in range(num_res.shape[0]):
           crop=img[num_res[img_idx,1]:num_res[img_idx,3],num_res[img_idx,0]:num_res[img_idx,2]]
           cv2.imwrite("obj.png",crop)
+          SupreRes("obj.png")  
           slack_client.api_call(
           "files.upload",
            channels=[channel],
