@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import glob 
 
+#func to detect dark image with histograms
 def dark_detect_hist(img):
   gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
@@ -14,10 +15,10 @@ def dark_detect_hist(img):
   
   if dark_pixel/total_pixel>0: #the thresholds are set to 0 because they are different for different situations and we couldn't get them right for general cases
     return 1
-  if bright_pixel/total_pixel>0: #threshold set to 0
+  if bright_pixel/total_pixel>0: #threshold set to 0 for the same reason as stated above.
     return 0
 
-#function to detect dark image
+#func to detect dark image
 def dark_detect(img):
   #img=cv2.imread("rick.jpg")
   lab=cv2.cvtColor(img,cv2.COLOR_BGR2LAB)
