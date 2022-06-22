@@ -12,7 +12,7 @@ matplotlib==3.1.3
 mmcv==0.2.16
 -e git+https://github.com/open-mmlab/mmdetection.git@9e15a014a50fe4c23aba21f33a710c5fdea33a01#egg=mmdet
 multidict==4.7.5
-numpy==1.18.1
+numpy==1.22.0
 opencv-python==4.2.0.32
 Pillow>=7.1.0
 pycocotools==2.0
